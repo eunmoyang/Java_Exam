@@ -1,0 +1,1 @@
+jdbc:mysql://localhost/jacom?serverTimezone=UTC,root,123456
