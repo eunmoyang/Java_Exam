@@ -18,6 +18,7 @@ public class jdbctestConnection {
 			String pw = "123456";
 			
 			conn = DriverManager.getConnection(url, id, pw);
+			System.out.println("Connected");
 			
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();

@@ -9,13 +9,19 @@ public class Test01VO {
 	
 	public Test01VO() {}
 	
-	public Test01VO(int tno, String pname, int age, String etc, int del) {
+	public Test01VO(String pname, int age, String etc) {
+		super();
+		this.pname = pname;
+		this.age = age;
+		this.etc = etc;
+	}
+	
+	public Test01VO(int tno, String pname, int age, String etc) {
 		super();
 		this.tno = tno;
 		this.pname = pname;
 		this.age = age;
 		this.etc = etc;
-		this.del = del;
 	}
 
 	public int getTno() {
